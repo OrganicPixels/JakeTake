@@ -290,7 +290,8 @@ h2 {
 .profile-image {
     width: 100%;
     height: 130px;
-    background-color: #0e0e0;
+    /* this hex value is invalid
+     background-color: #0e0e0;  */
     position: relative;
 }
 
@@ -332,7 +333,7 @@ h2 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    padding: -3px;
+    padding: -3px; /* This won't work */
     margin-bottom: -20px;
     margin-left: 80px;
 
@@ -354,9 +355,10 @@ h2 {
     background-color: #45a049;
 }
 
-img {
+.profile-social {
     margin-left: 91.5%;
     margin-bottom: 0;
+}
     /* }
 .contact-info {
     padding: 15px;
